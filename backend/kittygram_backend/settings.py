@@ -16,7 +16,7 @@ if os.getenv('DEBUG', '').lower() == 'true':
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['84.201.161.100', '127.0.0.1', 'localhost', 'kitygramm.zapto.org']
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split(' ')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
