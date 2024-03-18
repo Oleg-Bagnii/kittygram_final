@@ -11,7 +11,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = get_random_secret_key()
 
-DEBUG = True
+if os.getenv('DEBUG', '').lower() == 'true':
+    DEBUG = True
+else:
+    DEBUG = False
 
 ALLOWED_HOSTS = ['84.201.161.100', '127.0.0.1', 'localhost', 'kitygramm.zapto.org']
 
