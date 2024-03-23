@@ -31,5 +31,7 @@ services:
     volumes:
       - static_volume:/static/
       - media:/media/
+    depends_on:
+      - db
     ports:
       - 9000:80
