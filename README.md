@@ -1,5 +1,5 @@
 #  Проект Kittygram
-![Build Status](https://github.com/Oleg_Bagnii/kittygram_final/workflows/main.yml/badge.svg)
+![Build Status](https://github.com/Oleg_Bagnii/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 ## Описание проекта:
 
