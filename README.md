@@ -1,5 +1,7 @@
+![example event parameter](https://github.com/Oleg_Bagnii/kittygram_final/actions/workflows/main.yml/badge.svg?event=push)
+
 #  Проект Kittygram
-![Build Status](https://github.com/Oleg_Bagnii/kittygram_final/blob/workflows/main.yml/badge.svg)
+![Build Status](https://github.com/Oleg_Bagnii/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 ## Описание проекта:
 
