@@ -1,5 +1,5 @@
-![Build Status](https://github.com/Oleg_Bagnii/kittygram_final/workflows/Run%20tests/badge.svg)](https://github.com/Oleg_Bagnii/kittygram_final/actions/workflows/main.yml/badge.svg)
-![Build Status](https://github.com/xdan/jodit/workflows/Run%20tests/badge.svg)](https://github.com/xdan/jodit/actions/workflows/tests.yml)
+![Build Status](https://github.com/Oleg_Bagnii/kittygram_final/actions/workflows/Run%20tests/badge.svg)]
+
 #  Проект Kittygram
 
 ## Описание проекта:
