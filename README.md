@@ -1,4 +1,4 @@
-![Build Status](https://github.com/Oleg_Bagnii/kittygram_final/actions/workflows/main.py/badge.svg)]
+![Build Status](https://github.com/Oleg_Bagnii/kittygram_final/actions/workflows/main.yml/badge.svg)]
 
 #  Проект Kittygram
 
