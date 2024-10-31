@@ -18,17 +18,13 @@
 
 ## Для запуска проекта выполните следующие комнады:
 
-### Клонируйте проект Kittygram себе на компьютер:
+### Установка
+1. Клонируйте проект Kittygram себе на компьютер:
 ```sh
 git clone https://github.com/Oleg-Bagnii/kittygram_final.git
 ```
-### Заполните файл .env
+2. Создайте файл .env и заполните его своими данными.
 ```sh
-cd kittygram_final/
-```
-```sh
-nano .env
-```
 POSTGRES_DB=<Желаемое_имя_базы_данных>
 
 POSTGRES_USER=<Желаемое_имя_пользователя_базы_данных>
@@ -38,21 +34,17 @@ POSTGRES_PASSWORD=<Желаемый_пароль_пользователя_баз
 DB_HOST=db
 
 DB_PORT=5432
-
-### Запуск проекта:
-```sh
-docker compose -f docker-compose.production.yml up
 ```
-### Выполняем миграции, собераем статические файлы бэкенда и скопируем их в /backend_static/static/:
-```sh
-docker compose -f docker-compose.production.yml exec backend python manage.py migrate
-```
-```sh
-docker compose -f docker-compose.production.yml exec backend python manage.py collectstatic
-```
-```sh
-docker compose -f docker-compose.production.yml exec backend cp -r /app/collected_static/. /backend_static/static/
-```
+### Создание Docker-образов
+1. Замените YOUR_USERNAME на свой логин на DockerHub:
+2. ```sh
+cd frontend
+docker build -t YOUR_USERNAME/kittygram_frontend .
+cd ../backend
+docker build -t YOUR_USERNAME/kittygram_backend .
+cd ../nginx
+docker build -t YOUR_USERNAME/kittygram_gateway .
+``
 
 ### Проект доступен:
 
