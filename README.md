@@ -44,7 +44,7 @@ cd ../backend
 docker build -t YOUR_USERNAME/kittygram_backend .
 cd ../nginx
 docker build -t YOUR_USERNAME/kittygram_gateway .
-``
+```
 
 ### Проект доступен:
 
