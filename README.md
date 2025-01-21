@@ -112,7 +112,7 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```sh
 sudo service nginx reload
 ```
-### Настройка CI/CD
+### Настройка CI/CD 
 1. Файл workflow уже написан и находится в директории:
 ```sh
 kittygram/.github/workflows/main.yml
